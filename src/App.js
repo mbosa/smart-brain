@@ -104,7 +104,7 @@ class App extends Component {
             })
             .catch(console.log)
 
-        }; console.log(response);  // TODO: delete this console.log
+        };
         this.displayFaceBox(this.calculateFaceLocation(response))
       })
       .catch(err => console.log(err));
